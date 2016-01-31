@@ -1,0 +1,62 @@
+
+
+/* universal */
+header {
+  width:100px;
+  border: 2px solid grey;
+  margin-top: 0 auto;
+  padding-top: 20px;
+  padding-right: 130px;
+  padding-left: 10px;
+}
+nav li {
+  position: absolute;
+  margin-bottom: 40px;
+  list-style: none;
+  right: 75%;
+  top: 32%;
+  border-bottom: 2px solid gray;
+
+}
+h1 {
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#add_picture {
+  text-align: center;
+}
+#link_back {
+  display:inline-block;
+  border-bottom: 2px solid gray;
+  margin-bottom: 50px;
+}
+
+#picture_description {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+body {
+
+  font-family: 'Titillium Web', sans-serif;
+  padding-top: 60px;
+  padding-left: 30px;
+  text-align:center;
+}
+
+textarea {
+  resize: vertical;
+}
+
+p {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
