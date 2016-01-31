@@ -1,7 +1,19 @@
-<h1>Pictures (<%= @picture.length %>)</h1>
-<%= link_to "New Picture", "/pictures/new" %>
-
-<% @picture.each do |picture| %>
-  <p><%= picture.title %>, <%= picture.artist %></p>
-  <%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
-<% end %>
+<body>
+  <header>
+    <h1>Picture Manager <h1>
+      <nav>
+        <ul>
+          <li> <%= link_to "New Picture", "/pictures/new" %> </li>
+        </ul>
+      </nav>
+  </header>
+    <div id = "title">
+      <p> You have <%= @picture.length %> pictures on your web app </p>
+    </div>
+    <% @picture.each do |picture| %>
+    <div id="picture_description">
+          <%= picture.title %>, <%= picture.artist %>
+          <%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
+    <% end %>
+    </div>
+</body>
