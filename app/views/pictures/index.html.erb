@@ -1,6 +1,6 @@
 <body>
   <header>
-    <h1>Picture Manager <h1>
+    <h1>Photogur <h1>
       <nav>
         <ul>
           <li> <%= link_to "New Picture", "/pictures/new" %> </li>
@@ -8,7 +8,7 @@
       </nav>
   </header>
     <div id = "title">
-      <p> You have <%= @picture.length %> pictures on your web app </p>
+      <p> You have <%= @picture.length %> pictures in Photogur </p>
     </div>
     <% @picture.each do |picture| %>
     <div id="picture_description">
