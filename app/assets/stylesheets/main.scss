@@ -1,9 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-/* universal */
+// Modules and Variables
+@import "partials/base";
+// Partials
+@import "partials/grids";
+
+
+
 header {
   width:100px;
-  border: 2px solid grey;
+  border: 2px $solidgrey;
   margin-top: 0 auto;
   padding-top: 20px;
   padding-right: 130px;
@@ -15,7 +21,7 @@ nav li {
   list-style: none;
   right: 75%;
   top: 35%;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px $solidgrey;
   font-size: 1.75rem;
 
 }
@@ -33,7 +39,7 @@ h2 {
 }
 #link_back {
   display:inline-block;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px $solidgrey;
   margin-bottom: 50px;
 }
 
