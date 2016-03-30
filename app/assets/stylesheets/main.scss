@@ -4,7 +4,8 @@
 @import "partials/base";
 // Partials
 @import "partials/grids";
-
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
 
 
 header {
@@ -56,7 +57,7 @@ h2 {
 }
 body {
 
-  font-family: 'Titillium Web', sans-serif;
+  font-family: $font-main;
   padding-top: 60px;
   padding-left: 30px;
   text-align:center;
