@@ -1,11 +1,14 @@
 == README
 
 What is it?
+
 Photogur is a photosharing app that allows you to upload photos, edit and delete them. The main page of the app will show you all of your images and will tell you how many you have on the app.
 
 Installation 
+
 $ rake db:migrate 
 
 
 Live?
+
 You bet! go to https://damp-sea-21875.herokuapp.com/ to see a live version of the app! 
