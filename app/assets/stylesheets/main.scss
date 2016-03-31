@@ -1,54 +1,20 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-// Modules and Variables
-@import "partials/base";
 // Partials
-@import "partials/grids";
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700);
+@import "partials/base";
+//Fonts
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,300);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
 
 
-header {
-  width:100px;
-  border: 2px $solidgrey;
-  margin-top: 0 auto;
-  padding-top: 20px;
-  padding-right: 130px;
-  padding-left: 10px;
-}
-nav li {
-  position: absolute;
-  margin-bottom: 40px;
-  list-style: none;
-  right: 75%;
-  top: 35%;
-  border-bottom: 2px $solidgrey;
-  font-size: 1.75rem;
 
-}
-h1 {
-  font-size: 3rem;
-  padding-bottom: 20px;
-}
-h2 {
-  font-size: 2rem;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-#add_picture {
-  text-align: center;
-}
 #link_back {
   display:inline-block;
   border-bottom: 2px $solidgrey;
   margin-bottom: 50px;
 }
 
-#picture_description {
-  font-size: 2rem;
-  font-style: italic;
-  text-align: center;
-}
+
 
 #title {
   font-size: 2.5rem;
@@ -58,8 +24,6 @@ h2 {
 body {
 
   font-family: $font-main;
-  padding-top: 60px;
-  padding-left: 30px;
   text-align:center;
 }
 
